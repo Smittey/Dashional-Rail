@@ -1,4 +1,4 @@
-# National-Rail-Dashing-Widget
+# Dashional Rail
 A widget for the Dashing framework to display live data from National Rail. The widget shows warning messages from stations, if trains are cancelled, or if they are delayed and by how long.
 
 
