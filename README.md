@@ -11,9 +11,12 @@ A widget for the Dashing framework to display live data from National Rail. The 
 1. You need an access token to use National Rail's realtime API 'OpenLDBWS'. This can be obtained [here](https://realtime.nationalrail.co.uk/OpenLDBWSRegistration/Registration)
 3. Copy `national_rail.html`, `national_rail.coffee`, and `national_rail.scss` into the `/widgets/national_rail` directory. Put the `national_rail.rb` file in your `/jobs` folder.
 4. Edit the following variables in `national_Rail.rb`
-	5. `token` - Your access token from above
-	6. `numRows` - The number of rows that you wish to show on your widget. The default is `8`
-	7. `crs` - Your desired station code [which can be found here](http://www.nationalrail.co.uk/static/documents/content/station_codes.csv)
+	
+    `token` - Your access token from above
+	
+    `numRows` - The number of rows that you wish to show on your widget. The default is `8`
+	
+    `crs` - Your desired station code [which can be found here](http://www.nationalrail.co.uk/static/documents/content/station_codes.csv)
 
 ## Usage
 
