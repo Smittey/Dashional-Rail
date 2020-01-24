@@ -1,22 +1,22 @@
 # Dashional Rail
-A widget for the Dashing framework to display live data from National Rail. The widget shows warning messages from stations, if trains are cancelled, or if they are delayed and by how long.
 
+A widget for the Dashing framework to display live data from National Rail. The widget shows warning messages from stations, if trains are cancelled, or if they are delayed and by how long.
 
 ![National-Rail-Dashing-Widget
 ](http://i.imgur.com/13mI5ZF.png "National-Rail-Dashing-Widget")
 
+## Installation Steps
 
-## Installation Steps 
-
-1. You need an access token to use National Rail's realtime API 'OpenLDBWS'. This can be obtained [here](https://realtime.nationalrail.co.uk/OpenLDBWSRegistration/Registration)
+1. Ensure your Gemfile includes `nokogiri` and `activesupport` (and run bundle install if necessary)
+2. You need an access token to use National Rail's realtime API 'OpenLDBWS'. This can be obtained [here](https://realtime.nationalrail.co.uk/OpenLDBWSRegistration/Registration)
 3. Copy `national_rail.html`, `national_rail.coffee`, and `national_rail.scss` into the `/widgets/national_rail` directory. Put the `national_rail.rb` file in your `/jobs` folder.
 4. Edit the following variables in `national_Rail.rb`
-	
-    `token` - Your access token from above
-	
-    `numRows` - The number of rows that you wish to show on your widget. The default is `8`
-	
-    `crs` - Your desired station code [which can be found here](http://www.nationalrail.co.uk/static/documents/content/station_codes.csv)
+
+   `token` - Your access token from above
+
+   `numRows` - The number of rows that you wish to show on your widget. The default is `8`
+
+   `crs` - Your desired station code [which can be found here](http://www.nationalrail.co.uk/static/documents/content/station_codes.csv)
 
 ## Usage
 
